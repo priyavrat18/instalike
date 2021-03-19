@@ -12,7 +12,7 @@ let noOfPost=process.argv[2];
       page.waitForNavigation({waitUntil:"networkidle2"}),
       page.click("button[type='submit']")
   ]);
-  await page.type("input[placeholder='Search']","goluduet");
+  await page.type("input[placeholder='Search']","priyavrat17");
   await page.waitForSelector("._01UL2 .fuqBx a",{visible:true});
   await Promise.all([
     page.waitForNavigation({waitUntil:"networkidle2"}),
